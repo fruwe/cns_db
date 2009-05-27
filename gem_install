@@ -1,0 +1,5 @@
+sudo gem uninstall cns_db
+rm -rf pkg
+rake package
+sudo gem install pkg/cns_db-0.0.1.gem
+rm -rf pkg

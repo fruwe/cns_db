@@ -1,0 +1,7 @@
+#!/usr/bin/ruby
+
+require 'rubygems'
+require 'simplerdb/server'
+@server = SimplerDB::Server.new(8087)
+@server.start
+#@thread = Thread.new { @server.start }
